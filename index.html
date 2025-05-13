@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manu Dominic | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f8f9fb;
+      color: #2d2d2d;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #1d3557, #457b9d);
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+      animation: fadeInDown 1.2s ease;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease;
+    }
+    nav a {
+      color: #1d3557;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #e63946;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1s ease;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1d3557;
+      color: #fff;
+      animation: fadeInUp 1.5s ease;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #457b9d;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    a.button:hover {
+      background: #1d3557;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes fadeInUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeInDown {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Manu Dominic</h1>
+    <p>IT Graduate | Research Analyst | Gamer</p>
+    <a href="https://www.linkedin.com/in/manu-dominic-33299a175/" target="_blank" class="button">Visit my LinkedIn</a>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am an IT professional with a strong background in project management, data analysis, and customer support. A recent graduate of Project Management - Information Technology at Canadore College, I bring experience from Wipro and a passion for user-focused research in gaming and tech.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="card">
+      <h2>Experience</h2>
+      <h3>Analyst – Wipro</h3>
+      <p>Mar 2021 – Aug 2023</p>
+      <ul>
+        <li>Conducted data-driven research projects.</li>
+        <li>Collaborated with senior researchers to improve customer outcomes.</li>
+        <li>Interpreted user feedback to drive actionable insights.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+      <h2>Projects</h2>
+      <p><strong>Survey Design & Research Analysis:</strong> Built user insights surveys and analyzed data using Excel and visualization tools during academic projects.</p>
+      <p><strong>Capstone Project – IT Management Simulation:</strong> Led a team to successfully execute a simulated IT project, focusing on risk, time, and stakeholder management.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: manudominic007@gmail.com</p>
+      <p>Phone: +1 705 303 7212</p>
+      <p>Location: North Bay, Ontario</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manu Dominic. All rights reserved.</p>
+  </footer>
+</body>
+</html>
